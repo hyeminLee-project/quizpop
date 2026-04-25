@@ -1,134 +1,61 @@
 {
   "user": "hyemin",
-  "total_quizzes": 9,
-  "total_correct": 1,
+  "total_quizzes": 19,
+  "total_correct": 6,
   "sessions": [
     {
       "date": "2026-04-24",
       "score": "1/9",
       "details": [
-        {
-          "id": 1,
-          "concept": "bubble sort",
-          "correct": false,
-          "user_answer": "D",
-          "answer": "B"
-        },
-        {
-          "id": 2,
-          "concept": "딕셔너리 len",
-          "correct": false,
-          "user_answer": "C",
-          "answer": "B"
-        },
-        {
-          "id": 3,
-          "concept": "split/startswith",
-          "correct": false,
-          "user_answer": "C",
-          "answer": "B"
-        },
-        {
-          "id": 4,
-          "concept": "falsy 값",
-          "correct": false,
-          "user_answer": "B",
-          "answer": "A"
-        },
-        {
-          "id": 5,
-          "concept": "슬라이싱",
-          "correct": true,
-          "user_answer": "B",
-          "answer": "B",
-          "note": "찍음"
-        },
-        {
-          "id": 6,
-          "concept": "range(start,stop,step)",
-          "correct": false,
-          "user_answer": "C",
-          "answer": "A"
-        },
-        {
-          "id": 7,
-          "concept": "함수 기본값 인자",
-          "correct": false,
-          "user_answer": "D",
-          "answer": "C"
-        },
-        {
-          "id": 8,
-          "concept": "리스트 컴프리헨션 필터",
-          "correct": false,
-          "user_answer": "A",
-          "answer": "B"
-        },
-        {
-          "id": 9,
-          "concept": "split/upper/join",
-          "correct": false,
-          "user_answer": "D",
-          "answer": "B"
-        }
+        {"id": 1, "concept": "bubble sort", "correct": false, "user_answer": "D", "answer": "B"},
+        {"id": 2, "concept": "딕셔너리 len", "correct": false, "user_answer": "C", "answer": "B"},
+        {"id": 3, "concept": "split/startswith", "correct": false, "user_answer": "C", "answer": "B"},
+        {"id": 4, "concept": "falsy 값", "correct": false, "user_answer": "B", "answer": "A"},
+        {"id": 5, "concept": "슬라이싱", "correct": true, "user_answer": "B", "answer": "B", "note": "찍음"},
+        {"id": 6, "concept": "range(start,stop,step)", "correct": false, "user_answer": "C", "answer": "A"},
+        {"id": 7, "concept": "함수 기본값 인자", "correct": false, "user_answer": "D", "answer": "C"},
+        {"id": 8, "concept": "리스트 컴프리헨션 필터", "correct": false, "user_answer": "A", "answer": "B"},
+        {"id": 9, "concept": "split/upper/join", "correct": false, "user_answer": "D", "answer": "B"}
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "score": "5/10",
+      "details": [
+        {"id": 1, "concept": "falsy 값", "correct": false, "user_answer": "C", "answer": "B"},
+        {"id": 2, "concept": "range(start,stop,step)", "correct": true, "user_answer": "A", "answer": "A"},
+        {"id": 3, "concept": "split/upper/join", "correct": false, "user_answer": "A", "answer": "B"},
+        {"id": 4, "concept": "함수 기본값 인자", "correct": true, "user_answer": "B", "answer": "B"},
+        {"id": 5, "concept": "딕셔너리 len", "correct": true, "user_answer": "B", "answer": "B"},
+        {"id": 6, "concept": "리스트 컴프리헨션 필터", "correct": true, "user_answer": "B", "answer": "B"},
+        {"id": 7, "concept": "split/startswith", "correct": false, "user_answer": "C", "answer": "B"},
+        {"id": 8, "concept": "bubble sort", "correct": false, "user_answer": "C", "answer": "B"},
+        {"id": 9, "concept": "falsy 값", "correct": true, "user_answer": "C", "answer": "C"},
+        {"id": 10, "concept": "이중 컴프리헨션", "correct": false, "user_answer": "C", "answer": "A"}
       ]
     }
   ],
   "concept_stats": {
-    "bubble sort": {
-      "attempts": 1,
-      "correct": 0,
-      "rate": 0.0
-    },
-    "딕셔너리 len": {
-      "attempts": 1,
-      "correct": 0,
-      "rate": 0.0
-    },
-    "split/startswith": {
-      "attempts": 1,
-      "correct": 0,
-      "rate": 0.0
-    },
-    "falsy 값": {
-      "attempts": 1,
-      "correct": 0,
-      "rate": 0.0
-    },
-    "슬라이싱": {
-      "attempts": 1,
-      "correct": 1,
-      "rate": 1.0
-    },
-    "range(start,stop,step)": {
-      "attempts": 1,
-      "correct": 0,
-      "rate": 0.0
-    },
-    "함수 기본값 인자": {
-      "attempts": 1,
-      "correct": 0,
-      "rate": 0.0
-    },
-    "리스트 컴프리헨션 필터": {
-      "attempts": 1,
-      "correct": 0,
-      "rate": 0.0
-    },
-    "split/upper/join": {
-      "attempts": 1,
-      "correct": 0,
-      "rate": 0.0
-    }
+    "bubble sort": {"attempts": 2, "correct": 0, "rate": 0.0},
+    "딕셔너리 len": {"attempts": 2, "correct": 1, "rate": 0.5},
+    "split/startswith": {"attempts": 2, "correct": 0, "rate": 0.0},
+    "falsy 값": {"attempts": 3, "correct": 1, "rate": 0.33},
+    "슬라이싱": {"attempts": 1, "correct": 1, "rate": 1.0},
+    "range(start,stop,step)": {"attempts": 2, "correct": 1, "rate": 0.5},
+    "함수 기본값 인자": {"attempts": 2, "correct": 1, "rate": 0.5},
+    "리스트 컴프리헨션 필터": {"attempts": 2, "correct": 1, "rate": 0.5},
+    "split/upper/join": {"attempts": 2, "correct": 0, "rate": 0.0},
+    "이중 컴프리헨션": {"attempts": 1, "correct": 0, "rate": 0.0}
   },
   "weak_concepts": [
     "bubble sort",
-    "딕셔너리 len",
     "split/startswith",
+    "split/upper/join",
+    "이중 컴프리헨션",
     "falsy 값",
+    "딕셔너리 len",
     "range(start,stop,step)",
     "함수 기본값 인자",
-    "리스트 컴프리헨션 필터",
-    "split/upper/join"
+    "리스트 컴프리헨션 필터"
   ]
 }
